@@ -1,0 +1,39 @@
+.bg {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.64)),
+    url('./asset/textured.jfif') no-repeat center/cover;
+}
+
+.formGroup {
+  margin: 1rem 0;
+}
+.formGroup input,
+.formGroup textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+.formGroup textarea {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+.formGroup input:focus {
+  outline: none;
+}
+.button {
+  width: 100%;
+  background: transparent;
+  margin: 1rem;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.button:hover {
+  background: #fff;
+  color: skyblue;
+}

@@ -1,0 +1,12 @@
+.bg {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./menuassests/stoneBg.jpg') no-repeat center/cover;
+}
+.menu img {
+  width: 35%;
+}
+@media screen and (max-width: 760px) {
+  .menu img {
+    width: 100%;
+  }
+}
