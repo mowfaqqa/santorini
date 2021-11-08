@@ -17,9 +17,9 @@ const Footer = () => {
       </div>
       <div>
          <h6 className="roboto fs-4">Social Media</h6>
-         <i className="fab fa-instagram"></i>
-         <i className="fab fa-twitter"></i>
-         <i className="fab fa-gmail"></i>
+         <i className="fab fa-instagram fs-3 mx-2"></i>
+         <i className="fab fa-twitter fs-3 mx-2"></i>
+         <i className="fas fa-envelope fs-3 mx-2"></i>
       </div>
       </footer>
       <p className="text-center fs-3"> &copy; Santorini Restaurant, 2021</p>
